@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Solution3" Logo="ExpressAppLogo">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="@9b061b1c-f449-4997-9e25-da45579d5399" ViewId="DV" Index="3" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="13.1.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="Contact_ListView_Copy" ClassName="Solution4.Module.BusinessObjects.Contact" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="Address1" PropertyName="Address1" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Address2" PropertyName="Address2" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Birthday" PropertyName="Birthday" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="DisplayName" PropertyName="DisplayName" Width="400" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Email" PropertyName="Email" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FirstName" PropertyName="FirstName" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="LastName" PropertyName="LastName" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="MiddleName" PropertyName="MiddleName" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Notes" PropertyName="Notes" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Photo" PropertyName="Photo" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="FullName" PropertyName="FullName" Width="400" SortIndex="0" SortOrder="Ascending" Index="0" IsNewNode="True" />
+        <ColumnInfo Id="Manager" PropertyName="Manager" Width="70" Index="1" IsNewNode="True" />
+        <ColumnInfo Id="StrPosition" PropertyName="StrPosition" Width="70" Index="2" IsNewNode="True" />
+        <ColumnInfo Id="WebPageAddress" PropertyName="WebPageAddress" Width="70" Index="3" IsNewNode="True" />
+        <ColumnInfo Id="NickName" PropertyName="NickName" Width="70" Index="4" IsNewNode="True" />
+        <ColumnInfo Id="SpouseName" PropertyName="SpouseName" Width="70" Index="5" IsNewNode="True" />
+        <ColumnInfo Id="TitleOfCourtesy" PropertyName="TitleOfCourtesy" Width="70" Index="6" IsNewNode="True" />
+        <ColumnInfo Id="Anniversary" PropertyName="Anniversary" Width="70" Index="7" IsNewNode="True" />
+        <ColumnInfo Id="Department" PropertyName="Department" Width="70" Index="8" IsNewNode="True" />
+        <ColumnInfo Id="Position" PropertyName="Position" Width="70" Index="9" IsNewNode="True" />
+        <ColumnInfo Id="File" PropertyName="File" Width="70" Index="10" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <DashboardView Id="DV" IsNewNode="True">
+      <Items IsNewNode="True">
+        <DashboardViewItem Id="FilterSource" ViewId="Position_ListView" IsNewNode="True" />
+        <DashboardViewItem Id="FilterTarget" ViewId="Contact_ListView" IsNewNode="True" />
+      </Items>
+      <Layout IsNewNode="True">
+        <LayoutGroup Id="Main" IsNewNode="True">
+          <LayoutItem Id="FilterSource" ViewItem="FilterSource" Index="0" IsNewNode="True" />
+          <LayoutItem Id="FilterTarget" ViewItem="FilterTarget" Index="1" IsNewNode="True" />
+        </LayoutGroup>
+      </Layout>
+    </DashboardView>
+  </Views>
+</Application>
