@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DashboardRefreshController.cs](./CS/Solution3.Module.Web/Controllers/DashboardRefreshController.cs) (VB: [DashboardRefreshController.vb](./VB/Solution3.Module.Web/Controllers/DashboardRefreshController.vb))
+* **[DashboardFilterController.cs](./CS/Solution3.Module/Controllers/DashboardFilterController.cs) (VB: [DashboardFilterController.vb](./VB/Solution3.Module/Controllers/DashboardFilterController.vb))**
+<!-- default file list end -->
 # How to implement dependent views in a DashboardView (filter based on selection)
 
 
