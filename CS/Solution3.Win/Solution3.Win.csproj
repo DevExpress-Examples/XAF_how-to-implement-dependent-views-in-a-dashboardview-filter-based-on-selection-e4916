@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -60,91 +60,69 @@
   <ItemGroup>
     <Reference Include="DevExpress.ExpressApp.Xpo.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.ExpressApp.Xpo.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Office.v15.1.Core">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Office.v15.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v15.1.Core">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.RichEdit.v15.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Utils.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Utils.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.BonusSkins.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.BonusSkins.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Printing.v15.1.Core">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Printing.v15.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Data.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.ExpressApp.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Images.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.ExpressApp.Images.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Win.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.ExpressApp.Win.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Persistent.Base.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Persistent.Base.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Persistent.BaseImpl.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Persistent.BaseImpl.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpo.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Xpo.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraGrid.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.XtraGrid.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraBars.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.XtraBars.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraEditors.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.XtraEditors.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraLayout.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.XtraLayout.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraNavBar.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.XtraNavBar.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraPrinting.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.XtraPrinting.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraRichEdit.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.XtraRichEdit.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraTreeList.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.XtraTreeList.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraVerticalGrid.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.XtraVerticalGrid.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>

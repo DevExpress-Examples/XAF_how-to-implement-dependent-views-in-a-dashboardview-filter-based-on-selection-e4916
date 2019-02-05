@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -59,51 +59,39 @@
   <ItemGroup>
     <Reference Include="DevExpress.Printing.v15.1.Core">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Printing.v15.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Data.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Xpo.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.ExpressApp.Xpo.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.ExpressApp.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Images.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.ExpressApp.Images.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.ExpressApp.Web.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.ExpressApp.Web.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Persistent.Base.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Persistent.Base.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Persistent.BaseImpl.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Persistent.BaseImpl.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Office.v15.1.Core">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Office.v15.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.RichEdit.v15.1.Core">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.RichEdit.v15.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Web.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Xpo.v15.1">
       <Private>True</Private>
-      <HintPath>C:\Program Files (x86)\DevExpress 15.1\Components\Bin\Framework\DevExpress.Xpo.v15.1.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Private>False</Private>
